@@ -1,13 +1,62 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 
+               'Segoe UI', 'Roboto', 'Oxygen',
+               'Ubuntu', 'Cantarell', 'Fira Sans', 
+               'Droid Sans', 'Helvetica Neue',
+                sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+  
+.App {
+  text-align: center;
+}
+  
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, 
+               Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.card-container{
+   width: 300px;
+   overflow: hidden;
+   box-shadow: 0px 0px15px -5px;
+}
+
+.image-container{
+  overflow: hidden;
+  height: 200px;
+}
+.next-button{
+position: absolute;
+width: 76px;
+height: 76px;
+top : 70%;
+left: 60%;
+background-color: #1bbb20;
+border-radius: 30px;
+}
+
+.left-button{
+  position: absolute;
+  width: 76px;
+  height: 76px;
+  top : 70%;
+  right: 60%;
+  background-color: #bb1b1b;
+  border-radius: 30px;
+  }
